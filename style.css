@@ -414,7 +414,7 @@ button:hover {
 /*Login*/
 
 .login-content {
-  max-width: 400px;
+  max-width: 600px;
   margin: 100px auto;
   background-color: #fff;
   border-radius: 5px;
@@ -426,22 +426,32 @@ button:hover {
   border: 1px solid var(--Secondary-Color);
   padding: 5px;
   border-radius: 2px;
+  float: right;
 }
 
-h2 {
+.login-content h2 {
   text-align: center;
   color: #333;
+  margin-bottom: 10%;
+}
+
+.login-content label {
+  font-size: var(--small-font-size);
+  margin: 0 40px;
 }
 
 .login-form {
   margin-top: 20px;
+}
 
+.login-content p {
+  margin-top: 20px;
+  text-align: center;
 }
 
 .form-group {
   margin-bottom: 20px;
 }
-
 
 
 /*Bookmark*/
