@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="Dominic Burfeind">
+  <meta name="Date created" content="27.03.2024">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tauri&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ressources/css/style.css">
+  <title>Tasty Bites - Bookmarks</title>
+</head>
+<body>
+
+
+  <div class="banner">
+    <div class="banner-content">
+      <span class="logo">Tasty Bites</span>
+      <ul>
+        <li><a href="home.html">Recipes</a></li>
+        <li><a id="Currently-open" href="#">Categories</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="menu-container">
+        <a href="recipe.html">
+          <div class="svg-container add-recipe-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="pan"><path d="M43.5 22H3a1 1 0 0 0-1 1v3a6 6 0 0 0 6 6h.74l-1.38 6H6a1 1 0 0 0 0 2h22a1 1 0 0 0 0-2h-1.2l-1.38-6H26a6 6 0 0 0 5.91-5H43.5a2.5 2.5 0 0 0 0-5zM10.8 32h3.75a3.91 3.91 0 0 0-.55 2 3 3 0 0 0 .18 1H14a3 3 0 0 0-3 3H9.42zm6.2 3a1 1 0 0 1-1-1 2.37 2.37 0 0 1 1-1.8 2.37 2.37 0 0 1 1 1.8 1 1 0 0 1-1 1zm-4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1zm11.74 0H23a3 3 0 0 0-3-3h-.18a3 3 0 0 0 .18-1 3.91 3.91 0 0 0-.55-2h3.91zM26 30H8a4 4 0 0 1-4-4v-2h26v2a4 4 0 0 1-4 4zm17.5-5H32v-1h11.5a.5.5 0 0 1 0 1zm-27.37-6.5a1 1 0 1 0 1.74 1c1.92-3.34 1-4.82-.11-6.15-.77-.89-1.27-1.47.11-3.85a1 1 0 0 0-1.74-1c-1.92 3.34-1 4.82.11 6.15.76.89 1.27 1.47-.11 3.85zm7 0a1 1 0 1 0 1.74 1c1.92-3.34 1-4.82-.11-6.15-.77-.89-1.27-1.47.11-3.85a1 1 0 1 0-1.74-1c-1.92 3.34-1 4.82.11 6.15.76.89 1.27 1.47-.11 3.85zm-14 0a1 1 0 1 0 1.74 1c1.92-3.34 1-4.82-.11-6.15-.77-.89-1.27-1.47.11-3.85a1 1 0 0 0-1.74-1c-1.92 3.34-1 4.82.11 6.15.76.89 1.27 1.47-.11 3.85z" data-name="Layer 18"></path></svg>
+          </div>
+        </a>
+        <a href="bookmarked.html">
+          <div class="svg-container bookmarked-recipes">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M11 4.717c-2.286-.58-4.16-.756-7.045-.71A1.99 1.99 0 0 0 2 6v11c0 1.133.934 2.022 2.044 2.007 2.759-.038 4.5.16 6.956.791V4.717Zm2 15.081c2.456-.631 4.198-.829 6.956-.791A2.013 2.013 0 0 0 22 16.999V6a1.99 1.99 0 0 0-1.955-1.993c-2.885-.046-4.76.13-7.045.71v15.081Z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+        </a>
+        <a href="login.html">
+          <div class="svg-container login-container">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+            </svg>            
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+
+
+  <!--Header-->
+  <header class="category-header slideIn">
+    <div class="header-content">
+      <h1 class="wavy-text">Categorys<h1>
+    </div>
+  </header>
+
+
+
+  <!--Different Categorys-->
+  <section class="categorys slideIn">
+    <div class="category-content">
+
+      <div class="figure-container">
+        <a href="">
+          <figure class="snacks">
+            <figcaption>Snacks</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="figure-container">
+        <a href="">
+          <figure class="pasta">
+            <figcaption>Pasta</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="figure-container">
+        <a href="">
+          <figure class="rice">
+            <figcaption>Rice</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="figure-container">
+        <a href="">
+          <figure class="vegan">
+            <figcaption>Vegan & Vegetarian</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="figure-container">
+        <a href="">
+          <figure class="seafood">
+            <figcaption>Seafood</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="figure-container">
+        <a href="">
+          <figure class="meat">
+            <figcaption>Meat</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="figure-container">
+        <a href="">
+          <figure class="beverages">
+            <figcaption>Beverages</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="figure-container">
+        <a href="">
+          <figure class="quick">
+            <figcaption>Quick & Easy</figcaption>
+          </figure>
+        </a>
+      </div>
+
+    </div>
+  </section>  
+</body>
+</html>
