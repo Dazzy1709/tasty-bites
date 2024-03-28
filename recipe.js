@@ -19,15 +19,15 @@ recipeForm.addEventListener('submit', (e) => {
   const recipeImageValue = recipeImage.value;
   const recipeBox = document.querySelector('.content-box');
 
-  localStorage.setItem('recipe-name', recipeNameValue);
-  localStorage.setItem('recipe-description', recipeDescriptionValue);
-  localStorage.setItem('recipe-ingredients', recipeIngredientsValue);
-  localStorage.setItem('recipe-time', recipeTimeValue);
-  localStorage.setItem('recipe-steps', recipeStepsValue);
-  localStorage.setItem('recipe-image', recipeImageValue);
+  window.localStorage.setItem('recipe-name', recipeNameValue);
+  window.localStorage.setItem('recipe-description', recipeDescriptionValue);
+  window.localStorage.setItem('recipe-ingredients', recipeIngredientsValue);
+  window.localStorage.setItem('recipe-time', recipeTimeValue);
+  window.localStorage.setItem('recipe-steps', recipeStepsValue);
+  window.localStorage.setItem('recipe-image', recipeImageValue);
 
-  window.location.href = "home.html";
-  
+  window.location.href = "index.html";
+
 })
 
 
