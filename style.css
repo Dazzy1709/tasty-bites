@@ -162,7 +162,7 @@ color: #1d1d1d;
 
 header {
   grid-column: 1/3;
-  background-image: url(/ressources/img/vegetables.jpg);
+  background-image: url(vegetables.jpg);
   background-size: cover;
   color: var(--Main-Black);
 }
@@ -280,7 +280,7 @@ margin: 1rem;
 /*About us section*/
 
 .about-us-header {
-  background-image: url(/ressources/img/Meat.jpg);
+  background-image: url(Meat.jpg);
   color: white;
 }
 
@@ -341,7 +341,7 @@ margin: 1rem;
 /*Create recipe page*/
 
 .create-recipe-header {
-  background-image: url(/ressources/img/cooking.jpg);
+  background-image: url(cooking.jpg);
   background-size: cover;
   background-position: 100%;
 }
@@ -448,7 +448,7 @@ h2 {
 /*Bookmark*/
 
 .bookmark-header {
-  background-image: url(/ressources/img/fruitColors.jpg);
+  background-image: url(fruitColors.jpg);
   background-size: cover;
   background-position: 100%;
 }
@@ -466,7 +466,7 @@ h2 {
 /*Categorys*/
 
 .category-header {
-  background-image: url(/ressources/img/frenchToast.jpg);
+  background-image: url(frenchToast.jpg);
   background-size: cover;
   background-position: 100%;
 }
@@ -516,49 +516,49 @@ h2 {
 }
 
 .snacks {
-  background-image: url(/ressources/img/snacks.jpg);
+  background-image: url(snacks.jpg);
   background-position: 100%;
   background-size: cover;
 }
 
 .pasta {
-  background-image: url(/ressources/img/spaghetti2.jpg);
+  background-image: url(spaghetti2.jpg);
   background-position: 100%;
   background-size: cover;
 }
 
 .rice {
-  background-image: url(/ressources/img/rice.jpg);
+  background-image: url(rice.jpg);
   background-position: 100%;
   background-size: cover;
 }
 
 .vegan {
-  background-image: url(/ressources/img/vegan.jpg);
+  background-image: url(vegan.jpg);
   background-position: 100%;
   background-size: cover;
 }
 
 .seafood {
-  background-image: url(/ressources/img/seafood.jpg);
+  background-image: url(seafood.jpg);
   background-position: 100%;
   background-size: cover;
 }
 
 .meat {
-  background-image: url(/ressources/img/Meat.jpg);
+  background-image: url(Meat.jpg);
   background-position: 100%;
   background-size: cover;
 }
 
 .beverages {
-  background-image: url(/ressources/img/beverages.jpg);
+  background-image: url(beverages.jpg);
   background-position: 100%;
   background-size: cover;
 }
 
 .quick {
-  background-image: url(/ressources/img/breadAndEggs.jpg);
+  background-image: url(breadAndEggs.jpg);
   background-position: 100%;
   background-size: cover;
 }
